@@ -36,9 +36,11 @@ driver.findElement(By.id("country")).sendKeys("Turkiye");
 
 driver.findElement(By.xpath("//button")).click();
 
-        System.out.println();
+        System.out.println("Result Message: \n"+driver.findElement(By.id("resultMessage")).getText());
 
 
-      //  driver.quit();
+
+
+        //  driver.quit();
     }
 }
